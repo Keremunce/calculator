@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calculator/static/css/main.de3a9b48.css",
+    "main.js": "/calculator/static/js/main.583416aa.js",
+    "index.html": "/calculator/index.html",
+    "main.de3a9b48.css.map": "/calculator/static/css/main.de3a9b48.css.map",
+    "main.583416aa.js.map": "/calculator/static/js/main.583416aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3a9b48.css",
+    "static/js/main.583416aa.js"
+  ]
+}
