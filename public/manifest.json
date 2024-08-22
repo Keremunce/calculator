@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Calculator by Kerem Unce",
+  "short_name": "Calculator",
+  "description": "A sleek and efficient calculator app designed by Kerem Unce. Perform basic arithmetic operations with ease on a user-friendly interface.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#17181A",
+  "background_color": "#EFE8DE"
 }

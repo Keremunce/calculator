@@ -27,8 +27,10 @@
 
 html,
 body,
-#root {
+#root,
+.mainContainer {
   height: 100%;
+  position: relative;
 }
 
 html {
@@ -42,9 +44,10 @@ body {
   color: #fff;
 }
 
-#root{
+#root {
   padding: 1rem 0;
 }
+
 .wrapper {
   padding: var(--main-padding);
   display: flex;
@@ -105,4 +108,10 @@ body {
 .button:nth-child(3) {
   background-color: var(--operation2-color);
   color: var(--operation2-textcolor);
+}
+.footer{
+  position: fixed;
+  bottom: 2%;
+  color: var(--calculator-bgcolor);
+  left: 5%;
 }

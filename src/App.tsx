@@ -114,15 +114,18 @@ function App() {
 	}, []);
 
 	return (
-		<div className="wrapper">
-			<div className="screen">{number}</div>
-			<div className="buttonBox">
-				{buttons.map((item, index) => (
-					<div onClick={() => handleClickedNumber(item.type, item.value)} key={index} className="button">
-						{item.value}
-					</div>
-				))}
+		<div className="mainContainer">
+			<div className="wrapper">
+				<div className="screen">{number}</div>
+				<div className="buttonBox">
+					{buttons.map((item, index) => (
+						<div onClick={() => handleClickedNumber(item.type, item.value)} key={index} className="button">
+							{item.value}
+						</div>
+					))}
+				</div>
 			</div>
+			<div className="footer">{new Date().getFullYear()} All rights reserved. <a href="https://keremunce.com">keremunce.com</a></div>
 		</div>
 	);
 }
